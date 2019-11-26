@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sortable" verbose="1">
+	<test name="Test">
+		<groups>
+			<run>
+				<!-- <include name="smoke" />
+				<include name="regression" />
+				<exclude name=""/> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.demoqa.sortable" />
+			<class name="com.demoqa.selectable" />
+			<class name="com.demoqa.Resizable" />
+			<class name="com.demoqa.Droppable" />
+			<class name="com.demoqa.KeyboardEventsSampleForm" />
+			<class name="com.demoqa.TooltipAndDoubleclick" />
+			<class name="com.demoqa.Selectmenu" />
+			<class name="com.demoqa.slider" />
+			<class name="com.demoqa.Tabs" />
+		</classes>
+	</test> <!-- Test -->
+</suite><!-- Suite -->

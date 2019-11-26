@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sortable]" guice-stage="DEVELOPMENT">
+  <test name="Test">
+    <classes>
+      <class name="com.demoqa.sortable"/>
+      <class name="com.demoqa.selectable"/>
+      <class name="com.demoqa.Resizable"/>
+      <class name="com.demoqa.Droppable"/>
+      <class name="com.demoqa.KeyboardEventsSampleForm"/>
+      <class name="com.demoqa.TooltipAndDoubleclick"/>
+      <class name="com.demoqa.Selectmenu"/>
+      <class name="com.demoqa.slider"/>
+      <class name="com.demoqa.Tabs"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.demoqa.Selectmenu">
+        <methods>
+          <include name="Select_menu"/>
+        </methods>
+      </class> <!-- com.demoqa.Selectmenu -->
+      <class name="com.demoqa.sortable">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="commonWaitAndBackButton"/>
+          <include name="tireDownDriver"/>
+        </methods>
+      </class> <!-- com.demoqa.sortable -->
+      <class name="com.demoqa.KeyboardEventsSampleForm">
+        <methods>
+          <include name="KeyboardEventsSampleForm"/>
+        </methods>
+      </class> <!-- com.demoqa.KeyboardEventsSampleForm -->
+      <class name="com.demoqa.slider">
+        <methods>
+          <include name="slider_meeter"/>
+        </methods>
+      </class> <!-- com.demoqa.slider -->
+      <class name="com.demoqa.Resizable">
+        <methods>
+          <include name="resizable"/>
+        </methods>
+      </class> <!-- com.demoqa.Resizable -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [sortable] -->

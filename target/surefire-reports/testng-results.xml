@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-10T18:16:01Z" name="testSelenium.Selenium_Concepts.myTest" finished-at="2019-09-10T18:16:01Z" duration-ms="31">
+    <groups>
+    </groups>
+    <test started-at="2019-09-10T18:16:01Z" name="Command line test" finished-at="2019-09-10T18:16:01Z" duration-ms="31">
+      <class name="testSelenium.Selenium_Concepts.myTest">
+        <test-method signature="test1()[pri:0, instance:testSelenium.Selenium_Concepts.myTest@23d2a7e8]" started-at="2019-09-10T23:46:01Z" name="test1" finished-at="2019-09-10T23:46:01Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testSelenium.Selenium_Concepts.myTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testSelenium.Selenium_Concepts.myTest -->
+</testng-results>
