@@ -26,6 +26,10 @@ public class OptionMenu {
 		Thread.sleep(2000);
 		opSelect.selectByIndex(0);
 		Thread.sleep(2000);
+		
+		
+		
+		driver.quit();
 	}
 
 }
