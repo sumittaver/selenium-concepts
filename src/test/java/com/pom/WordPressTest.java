@@ -23,14 +23,17 @@ public class WordPressTest {
 	@Test
 	public void myTest() {
 		WordPressPage wPage=new WordPressPage(driver);
-		wPage=PageFactory.initElements(driver, WordPressPage.class);
-		wPage.logInLink();
+		//wPage=PageFactory.initElements(driver, WordPressPage.class);
+		//wPage.logInLink();
+		
+		wPage.check();
 		System.out.println("Login link clicked");
 		
 	}
 	
 	@AfterTest
-	public void closingDriver() {
+	public void closingDriver() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.quit();
 	}
 }

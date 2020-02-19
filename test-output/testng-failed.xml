@@ -6,15 +6,4 @@
       <class name="com.pom.WordPressTest"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.pom.WordPressTest">
-        <methods>
-          <include name="myDriverSetup"/>
-          <include name="closingDriver"/>
-          <include name="myTest"/>
-        </methods>
-      </class> <!-- com.pom.WordPressTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
